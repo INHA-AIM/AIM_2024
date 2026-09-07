@@ -1,0 +1,26 @@
+# LUCID Camera
+IPMParameterX : "./src/Integration/Param/ParamX_KIAPI5.txt"
+IPMParameterY : "./src/Integration/Param/ParamY_KIAPI5.txt"
+
+MarginX       : 38
+MarginY       : 20
+IntervalX     : 0.05
+IntervalY     : 0.02
+
+RemapHeight   : 600
+RemapWidth    : 640
+
+YoloModel : "./src/Integration/Param/yolov8s.onnx"
+
+# MORAI
+# IPMParameterX : "./src/Integration/Param/ParamX.txt"
+# IPMParameterY : "./src/Integration/Param/ParamY.txt"  
+
+# MarginX       : 38
+# MarginY       : 20
+# IntervalX     : 0.05
+# IntervalY     : 0.02
+
+# Remapped Image Resolution
+# RemapHeight   : 780
+# RemapWidth    : 600

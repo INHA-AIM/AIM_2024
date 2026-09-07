@@ -1,0 +1,41 @@
+# LiDAR Parameters
+
+# Object Tracking
+
+MaxNearObjectDistance : 3.0
+MaxNearNeighborDistance : 1.5
+MaxNewObjectDistance : 3.0
+
+MaxEraseCnt : 10
+
+InitialP0 : 10.0
+InitialP5 : 10.0
+InitialP10 : 10.0
+InitialP15 : 10.0
+
+InitialQ0 : 0.1
+InitialQ5 : 0.1
+InitialQ10 : 0.1
+InitialQ15 : 0.1
+
+InitialR0 : 0.01
+InitialR5 : 0.01
+InitialR10 : 100.0
+InitialR15 : 100.0
+
+MaxObjectDistance : 6.0
+MaxObjectVelocity_kph : 200 # kph
+
+MinIoU : 0.5
+
+MaxStaticVelocity_kph : 0.0 # kph
+
+# Clustering
+
+MinClusterPointNum : 5
+MaxClusterLength : 10.0
+MinClusterSize : 0.05 # 0.02~0.05 Planning
+
+# Map Boundary Filter
+
+MapDistanceOffset : 0.5

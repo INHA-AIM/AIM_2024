@@ -1,0 +1,36 @@
+# Planning Parameters
+# ACC Param
+
+EgoParam: 1.0
+RelativeParam: 1.0
+MinMarginParam: 15.0
+MaxBrakeThreshold: 13.89
+
+# Overtaking Param
+Ratio : 2.5
+
+# Car Specification
+TargetSpeedkph: 150           # km/h
+MaxAccel: 5.2                 # m/s^2
+MaxCurvature: 1.0
+
+# Frenet Path Parameters
+PathNum: 17
+SamplingTime: 0.1             # s
+MaxPredictionTime: 5.0        # s
+MinPredictionTime: 5.0        # s
+SpeedSamplingTime: 1.39       # m/s, 1.39(5.0 / 3.6)
+SpeedSamplingNum: 0
+
+CostJ: 0.1                    # 종방향 가속도 변화량에 대한 Cost
+CostT: 0.1                    # 도달 시간에 대한 Cost
+CostD: 1.0                    # 횡방향 가속도 변화량에 대한 Cost
+CostLat: 1.0                  # 횡방향 총 비용에 대한 Cost
+costLon: 1.0                  # 종방향 총 비용에 대한 Cost
+
+FrontHangOver: 0.8940
+RearHangOver: 1.059
+GpsToFront: 1.07
+GpsToRear: 1.81
+WholeLength: 4.676
+Width: 1.826

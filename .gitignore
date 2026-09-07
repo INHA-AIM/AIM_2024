@@ -1,0 +1,14 @@
+build/
+devel/
+src/Integration/rosbag*
+src/Integration/CMakeLists.txt
+configuration.yaml
+
+# --- Large vendor SDK / driver binaries (>100MB, exceed GitHub file size limit) ---
+# Re-download from the vendor sites, then extract in place.
+# ArenaSDK / Lucid Broadcom driver: https://thinklucid.com/downloads-hub/
+Kiapi.bin
+dependencies/ArenaSDK_v0.1.90_Linux_x64.tar.gz
+dependencies/ArenaSDK_Linux_x64/
+dependencies/Lucid_Broadcom_Driver_Package_v226.tar.gz
+dependencies/Lucid_Broadcom_Driver_Package/

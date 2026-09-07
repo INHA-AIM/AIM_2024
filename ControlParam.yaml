@@ -1,0 +1,70 @@
+### Control Parameters
+
+## Controller Selection
+# 0:LDStanley 
+# 1:LKAS 
+# 2:MPC 
+# 3:Stanley
+ControlMethod: 0
+
+## V2X Mode
+# 0: Signal - V2X signal On
+# 4: Test - V2X signal Off
+V2X: 0
+
+## Speed Profile Mode
+# 0: Constant Speed
+# 1: Speed Profile On
+SpeedProfile: 1
+
+## Target Speed (kph)
+TargetSpeed: 50
+
+## Stanley
+lowk: 0.03                
+highk: 0.1              
+ke: 1.0                 
+
+## Throttle PID
+P: 3.0                  # 20.0
+I: 0.0                  # 0.0
+D: 0.05                 # 3.0
+
+## ACC PID
+ACC_P: 17.0 # 10.0
+ACC_I: 0.0
+ACC_D: 3   
+
+## LKAS
+LKAS_P: 0.145
+LKAS_MAXDsteer : 0.4869 
+
+## Dynamics Parameter
+MaxSpeed: 50.0          # kph
+MinSpeed: 0.0            # kph
+MaxSteer: 0.6088	       # rad
+MaxDSteer: 0.4	         # rad/s
+MaxAccel: 1.66           # m/s^2
+RealTime: 0.05            
+
+## Tire
+CF: 163264.75            # N/rad 
+CR: 163264.75            # N/rad  
+
+### MPC
+## Lateral MPC 
+LatQ: [1.0, 1.0, 1.0, 1.0]
+LatR: 0.05
+LatRd: 0.5
+
+State: 4
+Input: 2
+Horizon: 10
+
+## Longitudinal MPC
+LonQ: [1.0, 1.0]
+LonR: 0.05
+LonRd: 0.5
+SamplingTime: 0.5
+
+
