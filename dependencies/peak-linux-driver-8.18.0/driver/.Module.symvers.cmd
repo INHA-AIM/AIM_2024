@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/peak-linux-driver-8.18.0/driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/autonav/AIM_2024/dependencies/peak-linux-driver-8.18.0/driver/modules.order | scripts/mod/modpost -m -a  -o /home/autonav/AIM_2024/dependencies/peak-linux-driver-8.18.0/driver/Module.symvers -e -i Module.symvers   -T -
