@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/pcican/kvpcican.mod := { echo  /home/autonav/AIM_2024/dependencies/linuxcan/pcican/PciCanHwIf.o /home/autonav/AIM_2024/dependencies/linuxcan/pcican/dallas.o;  echo; } > /home/autonav/AIM_2024/dependencies/linuxcan/pcican/kvpcican.mod

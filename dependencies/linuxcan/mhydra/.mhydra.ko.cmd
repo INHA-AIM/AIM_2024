@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/mhydra/mhydra.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/autonav/AIM_2024/dependencies/linuxcan/mhydra/mhydra.ko /home/autonav/AIM_2024/dependencies/linuxcan/mhydra/mhydra.o /home/autonav/AIM_2024/dependencies/linuxcan/mhydra/mhydra.mod.o;  true

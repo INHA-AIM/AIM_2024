@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/common/Module.symvers := sed 's/\.ko$$/\.o/' /home/autonav/AIM_2024/dependencies/linuxcan/common/modules.order | scripts/mod/modpost -m -a  -o /home/autonav/AIM_2024/dependencies/linuxcan/common/Module.symvers -e -i Module.symvers   -T -

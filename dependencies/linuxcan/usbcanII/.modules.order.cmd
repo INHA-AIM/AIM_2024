@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/modules.order := {   echo /home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanII.ko; :; } | awk '!x[$$0]++' - > /home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/modules.order

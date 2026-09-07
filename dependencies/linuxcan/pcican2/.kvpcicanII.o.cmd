@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/pcican2/kvpcicanII.o := ld  -m elf_x86_64 -z noexecstack     -r -o /home/autonav/AIM_2024/dependencies/linuxcan/pcican2/kvpcicanII.o /home/autonav/AIM_2024/dependencies/linuxcan/pcican2/PciCan2HwIf.o /home/autonav/AIM_2024/dependencies/linuxcan/pcican2/memQ.o

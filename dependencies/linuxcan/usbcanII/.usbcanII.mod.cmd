@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanII.mod := { echo  /home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanHWIf.o;  echo; } > /home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanII.mod

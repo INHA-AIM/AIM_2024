@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/leaf/leaf.o := ld  -m elf_x86_64 -z noexecstack     -r -o /home/autonav/AIM_2024/dependencies/linuxcan/leaf/leaf.o /home/autonav/AIM_2024/dependencies/linuxcan/leaf/leafHWIf.o

@@ -1,0 +1,1 @@
+cmd_/home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanII.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanII.ko /home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanII.o /home/autonav/AIM_2024/dependencies/linuxcan/usbcanII/usbcanII.mod.o;  true
