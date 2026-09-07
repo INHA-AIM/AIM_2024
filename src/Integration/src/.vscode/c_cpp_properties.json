@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/autonav/km_ws/devel/include/**",
+        "/home/autonav/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/autonav/catkin_ws/src/Lidar_3DOD_2022/include/**",
+        "/home/autonav/km_ws/src/Lidar_pkg/include/**",
+        "/home/autonav/catkin_ws/src/frenet_frame/include/**",
+        "/home/autonav/km_ws/src/local_pkg/include/**",
+        "/home/autonav/catkin_ws/src/morai_tutorial/include/**",
+        "/home/autonav/catkin_ws/src/msg_tutorial/include/**",
+        "/home/autonav/catkin_ws/src/openGL/include/**",
+        "/home/autonav/km_ws/src/pointcloud_to_laserscan/include/**",
+        "/home/autonav/km_ws/src/robot_localization/include/**",
+        "/home/autonav/km_ws/src/vesc/vesc_ackermann/include/**",
+        "/home/autonav/km_ws/src/vesc/vesc_driver/include/**",
+        "/home/autonav/km_ws/src/wego/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
